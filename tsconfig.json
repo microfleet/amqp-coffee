@@ -1,0 +1,13 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "baseUrl": "./packages",
+    "rootDir": "./",
+    "paths": {
+      "@microfleet/*": ["./*/src"]
+    }
+  },
+  "include": [
+    "packages/**/src/**/*.ts"
+  ]
+}
